@@ -15,6 +15,17 @@ header {
     padding: 1rem;
 }
 
+/* Disable clicked link effects */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Scale the image, don't clip */
+img {
+    object-fit: contain;
+}
+
 nav {
     background-color: rgba(255, 255, 255, 0.95);
     padding: 1rem 0;
