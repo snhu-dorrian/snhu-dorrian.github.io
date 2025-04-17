@@ -17,7 +17,7 @@ header {
 
 /* Disable clicked link effects */
 a {
-    text-decoration: none;
+    text-decoration:underline;
     color: inherit;
 }
 

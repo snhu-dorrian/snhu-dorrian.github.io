@@ -30,7 +30,7 @@
 				log (.WAL) file that was disabled since concurrency wasn’t a focus of this application. If concurrency was required SQLServer may be a better choice to be hosted on a server machine. 
 				It also required some changes for foreign keys that were solved by swapping data annotations on the models to the Fluent API using the model builder. 
             </p>
-			<img src="../assets/artifact3_InitialWebUI.png" alt="Pre 'Enhancement' WebUI">
+			<img src="../assets/artifact3/artifact3_InitialWebUI.png" alt="Pre 'Enhancement' WebUI">
 			<h2>Working With Winforms</h2>
             <p>
                 One of the largest issues in building the UI was working with the GridView. Loading and saving the database models required creating binding sources and managing state
@@ -38,8 +38,8 @@
 				the models PropertyInfo map the values to. Using reflection was a new challenge both becuase of the language, but also conceptually. While it's avoided due to it not being safe
 				it was also the most reliable way to consistently bind the model to the grid.
             </p>
-			<img src="../assets/artifact3_Dashboard.png" alt="Dashboard form UI" width="600" height="400" style="display:inline-block">
-			<img src="../assets/artifact3_AddPet.png" alt="Add pet form UI" width="600" height="400" style="display:inline-block">
+			<img src="../assets/artifact3/artifact3_Dashboard.png" alt="Dashboard form UI" width="600" height="400" style="display:inline-block">
+			<img src="../assets/artifact3/artifact3_AddPet.png" alt="Add pet form UI" width="600" height="400" style="display:inline-block">
 			<h2>SQL & EFCore</h2>
             <p>
                 Using EFCore was a large undertaking itself. On top of learning .NET, EntityFramework had a lot of foreign concepts. The first was understanding how to create and bind models using data annotations 
@@ -47,8 +47,8 @@
 				differences between ensure created vs .migrate(), and creating foreign keys. Finally, learning how EFCore worked when dealing with Enums or unsupported database values. I currently store values like 
 				Color, Species, AppointmentType, etc., as enums and the conversion from enum to string and back required its own handling which caused issues when querying data for the search results.
             </p>
-			<img src="../assets/artifact3_ModelCreating.png" alt="Code snippet Fluent API setup" width="600" height="400" style="display:inline-block">
-			<img src="../assets/artifact3_AnimalModel.png" alt="Code snippet of Animal Model for DBSet" width="600" height="400" style="display:inline-block">
+			<img src="../assets/artifact3/artifact3_ModelCreating.png" alt="Code snippet Fluent API setup" width="600" height="400" style="display:inline-block">
+			<img src="../assets/artifact3/artifact3_AnimalModel.png" alt="Code snippet of Animal Model for DBSet" width="600" height="400" style="display:inline-block">
 			<h2>Reflection</h2>
             <p>
                 Overall these enhancements were designed with security in mind and using industry standards. EFCore is one of, if not the, most used ORM for .NET development and helps with preventing security risks 

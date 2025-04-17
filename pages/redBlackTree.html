@@ -21,7 +21,35 @@
 		
 		<!-- Hero section, consistant across pages, gives a brief overview -->
 		<div class="hero">
-			<h1>Binary Search Tree Enhancement</h1>
+			<h1>Binary Search Tree Enhancement - DSA Artifact</h1>
+            <p>
+				This artifact is a conversion of the binary search tree in C++ to a red-black-tree in C#. It’s a self-balancing BST that was created in 1972, 
+				10 years after the initial creation of the AVL tree, another type of self-balancing tree. I used this artifact since it requires several 
+				enhancements on top of a language overhaul.
+            </p>
+			<h2>Generics</h2>
+            <p>
+                The first enhancements over the initial C++ implementation are a generic type implementation with the 
+				IObservable interface requiring all values to implement the CompareTo() method for tree traversal. 
+            </p>
+			<img src="../assets/artifact2/artifact2_ComparableNode.png" alt="Generic Nodes and IComparable code snippet" width="600" height="400" style="display:inline-block">
+			<img src="../assets/artifact2/artifact2_FixAfterInsert.png" alt="Fix after insertion code snippet" width="600" height="400" style="display:inline-block">
+			<h2>Tree Balancing</h2>
+            <p>
+                The largest challenges had to do with understanding how the new tree methods work. The rotations were slightly confusing, but it took videos and 
+				<a href="https://www.cs.usfca.edu/~galles/visualization/RedBlack.html">visualization tools</a>
+				to understand transplants for deletions. I ended up changing some details. I ended up ditching the ref type for simplicity, 
+				although in retrospect it seems to operate like a pointer. I also swapped a color from an enum to a bool since there are only two possible values, red or not red, and made a few more adjustments.
+            </p>
+			<img src="../assets/artifact2/artifact2_TreeRules.png" alt="Test Values" width="1000" height="400" style="display:block; margin: 0 auto;">
+			<div style="display: flex; justify-content: center; gap: 20px; margin-top: 10px;">
+				<img src="../assets/artifact2/artifact2_TestValues.png" alt="Test Values" width="600" height="400">
+				<img src="../assets/artifact2/artifact2_ConsoleOutput.png" alt="Console Output" width="600" height="400">
+			</div>
+			<h2>Reflection</h2>
+            <p>
+                Overall
+            </p>
 		</div>
 
 		<!-- Socials on all pages for more example work images -->
