@@ -17,7 +17,7 @@ header {
 
 /* Disable clicked link effects */
 a {
-    text-decoration:underline;
+    text-decoration: underline;
     color: inherit;
 }
 
@@ -60,7 +60,8 @@ nav a:hover {
     color: #fff;
     padding: 0.5rem;
     position: relative;
-    z-index: 1; /* Higher than background */
+    z-index: 1;
+    /* Higher than background */
 }
 
 .container {

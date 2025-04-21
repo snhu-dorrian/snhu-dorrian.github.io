@@ -1,37 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Software Design Enhancement</title>
-		
-		<link rel="stylesheet" href="../css/main.css">
-	</head>
-	<body>
-		<nav>
-			<ul>
-				<li><a href="../index.html">Home</a></li>
-				<!--
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Software Design Enhancement</title>
+
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<!--
 				<li><a href="pages/about.html">About</a></li>
 				<li><a href="portfolio.html">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
 				-->
-			</ul>
-		</nav>
-		
-		<!-- Hero section, consistant across pages, gives a brief overview -->
-		<div class="hero">
-			<h1>System Design Enhancement</h1>
+		</ul>
+	</nav>
+
+	<div class="hero">
+		<h1>System Design Enhancement</h1>
+
+		<p>
+			The system design enhancement is an and update to the original requirements of the DriverPass system made in CS255. 
+			Originally the document only contained technical requirements and the four UML diagrams Use Case, Activity, Class, and Sequence diagrams. 
+			With this enhancement design constraints, API endpoints, and a component diagram were added to be more in line with my current knowledge. 
+			In addition the class diagram was also updated to reflect large changes to structure and the addition of the authentication and payment services.
+		</p>
+
+		<h2>Enhancements</h2>
+		<p>
+			Starting with the design constraints the requirements for the application and how it would run were added. 
+			This means in addition to some overlapping technical requirements, the mobile compatibility, dmv compliance, 
+			and offline access constraints were added as well. The API endpoint addition includes user management, authentication, 
+			payment processing, reservation management, and report generation. Additionally, the component diagram reflects the 
+			client machine having two main interfaces, a database with redundancy, application services, and the two external services 
+			for authentication and payment processing.
+		</p>
+
+		<img src="../assets/artifact2/artifact2_TreeRules.png" alt="Test Values" width="1000" height="400"
+			style="display:block; margin: 0 auto;">
+		<div style="display: flex; justify-content: center; gap: 20px; margin-top: 10px;">
+			<img src="../assets/artifact2/artifact2_TestValues.png" alt="Test Values" width="600" height="400">
+			<img src="../assets/artifact2/artifact2_ConsoleOutput.png" alt="Console Output" width="600" height="400">
 		</div>
 
-		<!-- Socials on all pages for more example work images -->
-		<footer>
-			<div class="container">
-				<p>&copy; 2025 All rights reserved.</p>
-				<div class="social-links">
-					<a href="#" aria-label="LinkedIn">LinkedIn</a>
-				</div>
+		<h2>Reflection</h2>
+		<p>
+
+		</p>
+	</div>
+
+	<!-- Socials on all pages for more example work images -->
+	<footer>
+		<div class="container">
+			<p>&copy; 2025 All rights reserved.</p>
+			<div class="social-links">
+				<a href="#" aria-label="LinkedIn">LinkedIn</a>
 			</div>
-		</footer>
-	</body>
+		</div>
+	</footer>
+</body>
+
 </html>
