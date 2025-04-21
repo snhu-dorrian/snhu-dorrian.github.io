@@ -13,14 +13,21 @@ This portfolio includes:
 - **Home Page (`index.html`)**: Overview of my academic journey and featured projects.
 
 - **Artifacts**:
-  - [RBTree](https://github.com/snhu-dorrian/RBTree): A Red-Black Tree implementation in C++ and C#.
-  - [AnimalShelter](https://github.com/snhu-dorrian/AnimalShelter): A Windows Forms application for managing animal shelter data.
+  - [DriverPass]([https://github.com/snhu-dorrian/RBTree](https://github.com/snhu-dorrian/snhu-dorrian.github.io/tree/main/assets/artifact1)): An update and refinement of the original DriverPass design document requirements
+  - [RBTree](https://github.com/snhu-dorrian/RBTree): An port from a Binary Search Tree in C++ to a Red-Black-Tree in C#.
+  - [AnimalShelter](https://github.com/snhu-dorrian/AnimalShelter): A redesign of a single page web app to a Windows Forms application for managing animal shelter data with a UI.
 
 ---
 
 ## Featured Projects
 
-### 1. RBTree
+### 1. DriverPass Update
+
+- **Repository**: This artifact is purely documentation and can be accessed in the assets/artifact1 resources of the repository
+
+- **Description**: This is an update to the original design documentation. It features an updated class diagram, a new component diagram, design constraints, and more.
+
+### 2. RBTree
 
 - **Repository**: [snhu-dorrian/RBTree](https://github.com/snhu-dorrian/RBTree)
 
@@ -34,7 +41,7 @@ This portfolio includes:
   - Insertion and deletion operations maintaining tree balance.
   - Visualization of tree structure for debugging and analysis.
 
-### 2. AnimalShelter
+### 3. AnimalShelter
 
 - **Repository**: [snhu-dorrian/AnimalShelter](https://github.com/snhu-dorrian/AnimalShelter)
 
